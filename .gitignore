@@ -1,0 +1,9 @@
+/venv/
+/venv/bin/
+/venv/include/
+/venv/lib/
+/venv/pyvenv.cfg
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
