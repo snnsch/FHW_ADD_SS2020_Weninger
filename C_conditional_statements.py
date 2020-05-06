@@ -63,7 +63,7 @@ else:
 # SAMPLE CODE #2: USING CONDITIONALS AND BOOLEANS IN A FUNCTION
 # Könnte man erweitern: Liest Liste an Punkten und Namen ein und schleift durch: "Weninger: 5er, Fritsch: 3er" ;-)
 
-def welcheNoteBekommeIch ():
+def welche_note_bekomme_ich ():
   print("Bitte geben Sie Ihre Gesamtpunkte ein:")
   user_points = input()
   user_points = float(user_points)
@@ -71,13 +71,13 @@ def welcheNoteBekommeIch ():
     print("Bitte geben Sie eine (Komma-)Zahl zwischen 0 und 100 ein")
     user_points = input()
   else:
-    if user_points > 90.1:
+    if user_points > 90:
       print("Super, ein 1er")
-    elif user_points < 90.1 and user_points > 75.1:
+    elif user_points <= 90 and user_points > 75:
       print("2er")
-    elif user_points < 75 and user_points > 60.1:
+    elif user_points <= 75 and user_points > 60:
       print("3er")
-    elif user_points < 60 and user_points > 50.1:
+    elif user_points <= 60 and user_points > 50:
       print("4er")
     else:
       print("Leider ein 5er")
